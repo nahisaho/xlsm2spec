@@ -18,7 +18,6 @@ classifiers = [
     "Topic :: Documentation",
     "Topic :: Office/Business :: Office Suites",
 ]
-
 dependencies = [
     "typer>=0.9.0",
     "rich>=13.0.0",
@@ -26,6 +25,11 @@ dependencies = [
     "openpyxl>=3.1.0",
     "oletools>=0.60.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/nahisaho/xlsm2spec"
+Repository = "https://github.com/nahisaho/xlsm2spec"
+Issues = "https://github.com/nahisaho/xlsm2spec/issues"
 
 [project.optional-dependencies]
 dev = [
